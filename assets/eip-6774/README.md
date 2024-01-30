@@ -17,7 +17,7 @@ _These contracts are used in `test`_
 
 ## Tests
 
-Tests are written using [Foundry](https://book.getfoundry.sh/getting-started/installation), here is the list of tests:
+Tests are written using Foundry, here is the list of tests:
 
 - Barter on same contract
 - Cannot use an expired signature
@@ -32,7 +32,7 @@ Tests are written using [Foundry](https://book.getfoundry.sh/getting-started/ins
 
 You can build a Foundry repo by running the following scripts:
 
-```
+```bash
 forge init --force
 forge install OpenZeppelin/openzeppelin-contracts
 forge remappings > remappings.txt
@@ -43,6 +43,6 @@ forge build
 
 Run tests:
 
-```
+```bash
 forge test -vvvv
 ```

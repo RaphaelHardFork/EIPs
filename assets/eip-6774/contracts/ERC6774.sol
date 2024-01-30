@@ -99,7 +99,7 @@ contract ERC6774 is ERC721, EIP712, IERC6774 {
     }
 
     /*////////////////////////////////////////////////////////////////////////////////////////////////
-                                  ERC721 - disable transfer functions
+                                  ERC721 - transfer functions leaved unimplemented
     ////////////////////////////////////////////////////////////////////////////////////////////////*/
 
     function transferFrom(address, address, uint256) public pure override {
