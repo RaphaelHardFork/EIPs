@@ -18,10 +18,14 @@ _These contracts are used in `test`_
 ## Tests
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Tests are written using Foundry, here is the list of tests:
 =======
 Tests are written using [Foundry](https://book.getfoundry.sh/getting-started/installation), here is the list of tests:
 >>>>>>> c1cf355f (spelling mistakes)
+=======
+Tests are written using Foundry, here is the list of tests:
+>>>>>>> e17b7dd8 (new figures, remove links, reformulate sentences)
 
 - Barter on same contract
 - Cannot use an expired signature
